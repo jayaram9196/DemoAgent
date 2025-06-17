@@ -1,18 +1,17 @@
 import os
 import subprocess
 
-# Load .env variables if needed
 from dotenv import load_dotenv
 load_dotenv()
 
-# Render provides PORT as an environment variable
-port = os.environ.get("PORT", "8080")  # Default to 8080 if not set
+# Get the port Render expects your app to listen on
+port = os.environ.get("PORT", "10000")  # Render sets this automatically
 
-# Launch the ADK Web server and expose to the internet
+# Important: ADK Web must be told to bind to 0.0.0.0 and this port
 subprocess.run([
     "python",
     "-m", "google.adk.web",
-    "--project", ".",               # current directory (where your __init__.py is)
-    "--host", "0.0.0.0",
-    "--port", port
+    "--project", ".",          # assumes __init__.py is in the root
+    "--host", "0.0.0.0",       # required for public access on Render
+    "--port", str(port)        # pass the port as a string
 ])

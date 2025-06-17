@@ -10,7 +10,7 @@ port = os.environ.get("PORT", "10000")  # Render sets this automatically
 # Important: ADK Web must be told to bind to 0.0.0.0 and this port
 subprocess.run([
     "python",
-    "-m", "google.adk.web",
+    "-m", "google-adk",
     "--project", ".",          # assumes __init__.py is in the root
     "--host", "0.0.0.0",       # required for public access on Render
     "--port", str(port)        # pass the port as a string

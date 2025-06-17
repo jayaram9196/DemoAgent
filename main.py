@@ -14,4 +14,18 @@ subprocess.run([
     "--project", ".",          # assumes __init__.py is in the root
     "--host", "0.0.0.0",       # required for public access on Render
     "--port", str(port)        # pass the port as a string
+])import os
+import subprocess
+from dotenv import load_dotenv
+
+load_dotenv()
+
+port = os.environ.get("PORT", "10000")
+
+subprocess.run([
+    "python",
+    "-m", "google.adk.web",
+    "--project", ".",
+    "--host", "0.0.0.0",
+    "--port", str(port)
 ])

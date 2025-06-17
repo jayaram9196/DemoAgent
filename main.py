@@ -6,10 +6,10 @@ load_dotenv()
 
 port = os.environ.get("PORT", "10000")
 
-# Use 'adk' CLI command, not 'python -m ...'
+# Correct ADK CLI syntax
 subprocess.run([
     "adk", "web",
-    "--project", ".",
+    ".",  # 👈 this is your agents directory (positional argument)
     "--host", "0.0.0.0",
     "--port", str(port)
 ])

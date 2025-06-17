@@ -6,10 +6,10 @@ load_dotenv()
 
 port = os.environ.get("PORT", "10000")
 
+# Use 'adk' CLI command, not 'python -m ...'
 subprocess.run([
-    "python",
-    "-m", "google_adk",       # ✅ correct CLI module
-    "--project", ".",         # assumes __init__.py is in root
-    "--host", "0.0.0.0",      # required for public access
+    "adk", "web",
+    "--project", ".",
+    "--host", "0.0.0.0",
     "--port", str(port)
 ])

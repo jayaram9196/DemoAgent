@@ -160,6 +160,5 @@ This system orchestrates agents to analyze complex logistical scenarios and opti
 
 ## 🧠 Architecture Diagram
 
-
-
+![Image](https://github.com/user-attachments/assets/9cd5177d-35e1-4500-ba73-4b4b009ea032)
 

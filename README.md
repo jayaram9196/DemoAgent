@@ -24,6 +24,16 @@ The project was inspired by the need for intelligent automation in evaluating co
 
 ---
 
+## 📦 Built With
+
+* Python 3.12
+* Google Agent Development Kit (ADK)
+* Gemini 1.5 Flash API (via LiteLlm)
+* ADK CLI / Web Interface
+* dotenv
+
+---
+
 ## 🧰 What it Does
 
 * Accepts a region and product type
@@ -148,25 +158,5 @@ This system orchestrates agents to analyze complex logistical scenarios and opti
 
 ---
 
-## 🔗 Repository Link
 
-[https://github.com/jayaram9196/DemoAgent](https://github.com/jayaram9196/DemoAgent)
 
----
-
-## 🎥 Submission Tag
-
-> *This project was created for the purposes of entering the ADK Hackathon.*
-> Hashtag: **#adkhackathon**
-
----
-
-## 📦 Built With
-
-* Python 3.12
-* Google Agent Development Kit (ADK)
-* Gemini 1.5 Flash API (via LiteLlm)
-* ADK CLI / Web Interface
-* dotenv
-
----

@@ -11,7 +11,8 @@ A multi-agent system built with Google's Agent Development Kit (ADK) to analyze 
 🧑‍💻 Devpost Hackathon: https://googlecloudmultiagents.devpost.com
 
 🔗 ADK Docs: https://google.github.io/adk-docs/
-📝 **Blog Post**: [Smart Supply AI – Dev.to](https://dev.to/jayaram9196/smart-supply-ai-32li) 
+
+📝 Blog Post: [Smart Supply AI – Dev.to](https://dev.to/jayaram9196/smart-supply-ai-32li) 
 
 
 

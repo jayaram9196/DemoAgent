@@ -44,6 +44,10 @@ The project was inspired by the need for intelligent automation in evaluating co
 
 ---
 
+## 🧠 Architecture Diagram
+
+![Image](https://github.com/user-attachments/assets/9cd5177d-35e1-4500-ba73-4b4b009ea032)
+
 ## 🚀 How We Built It
 
 * Developed in **Python** using **Google ADK**
@@ -158,7 +162,4 @@ This system orchestrates agents to analyze complex logistical scenarios and opti
 
 ---
 
-## 🧠 Architecture Diagram
-
-![Image](https://github.com/user-attachments/assets/9cd5177d-35e1-4500-ba73-4b4b009ea032)
 

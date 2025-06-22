@@ -154,6 +154,8 @@ I need the following information:
 ```
 ---
 
+---
+
 ## 🏃‍ Hackathon Category
 
 **Category:** Automation of Complex Processes

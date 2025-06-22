@@ -2,8 +2,17 @@
 
 A multi-agent system built with Google's Agent Development Kit (ADK) to analyze regional supply chains and suggest optimizations using LLM orchestration.
 
+🌐 Live Demo: https://demoagent-1.onrender.com
 
-🌐 **Live Demo**: [https://demoagent-1.onrender.com](https://demoagent-1.onrender.com)
+📦 GitHub Repository: https://github.com/jayaram9196/DemoAgent
+
+🧑‍💻 Devpost Hackathon: https://googlecloudmultiagents.devpost.com
+
+🔗 ADK Docs: https://google.github.io/adk-docs/
+
+
+
+
 
 ---
 

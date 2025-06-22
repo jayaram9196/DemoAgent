@@ -70,4 +70,3 @@ root_agent = SequentialAgent(
         report_agent
     ]
 )
-
